@@ -1,0 +1,326 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>iBTC</title>
+<meta charset="utf-8" />
+
+<link rel="manifest" href="manifest.json">
+<meta name="msapplication-navbutton-color" content="#F62E1A">
+<meta name="theme-color" content="#F62E1A" />
+<meta http-equiv="content-language" content="en-us" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+<meta name="description" content="Decentralized blockchain">
+<link rel="stylesheet" href="assets/css/style.css" />
+<noscript><link rel="stylesheet" href="assets/css/style.css" /></noscript>
+</head>
+<body class="is-preload">
+
+<div id="wrapper">
+
+<header id="header">
+<div class="logo">
+<span class="icon fa-btc"></span>
+</div>
+<div class="content">
+<div class="inner">
+<h1>iBTC</h1>
+<p>IMPROVING ON BTC DECENTRALIZATION - SATOSHI'S MISSING LINK</p>
+</div>
+</div>
+<nav>
+<ul>
+<li><a href="#about">about</a></li>
+<li><a href="#core">core</a></li>
+<!-- <li><a href="#masternodes">masternodes</a></li> -->
+<li><a href="#electrum">electrum</a></li>
+<li><a href="#mining">mining</a></li>
+<li><a href="#resources">resources</a></li>
+</ul>
+</nav>
+</header>
+
+<!-- ABOUT SECTION -->
+
+<div id="main">
+<article id="about">
+<h2 class="major">about</h2>
+<span class="image main"><img src="images/ibtc.jpg" alt=""></span>
+<p><a href="https://github.com/NullFunctor/iBTC"><b>iBTC</b></a> is a NEXT generation decentralized based Feature cryptocurrency. The foundation of <b>iBTC</b> network is on BTC code base.iBTC is not premined.</p>
+<section><ul class="actions">
+<li><a href="https://github.com/NullFunctor/iBTC/releases" class="button icon fa-download">core client</a></li>
+<li><a href="https://github.com/NullFunctor/electrum" class="button icon fa-download">thin client</a></li>
+</ul>
+</section>
+<section><ul class="actions">
+<li><a href="#" class="button icon fa-download">ios client</a></li>
+</ul>
+</section>
+<p><b>iBTC aims to be a more decentralized version of Bitcoin.</b> This is accomplished <b>using Satoshi's Missing Link - </b> VBR Decentralization Algorithm. The Variable Block Reward (VBR) feature is the engine behind promoting more decentralization.
+  <br>iBTC adds Variable Block Rewards (VBR), a linearly weighted moving average (LWMA) Difficulty Adjustment Algorithm (DAA) to the Bitcoin (BTC) codebase. Adding VBR increases mining decentralization and forms a natural 51%
+  </b>attack deterrent algorithm. Attackers trying to freeze the blockchain will fail due to the added LWMA3 DAA algorithm.</p>
+               <!-- SPECIFICATION SECTION -->
+<h2>Specifications</h2>
+<ul>
+<li>algorithm: sha256</li>
+<li>ticker: iBTC</li>
+<li>prefix: 1, 3</li>
+<li>supply: 84000000</li>
+<li>maturity: 101</li>
+<li>confirmations: 6</li>
+<li>spacing: 2.5 min</li>
+<li>difficulty: LWMA</li>
+<li>block size: 1MB</li>
+<li>port: 7333</li>
+<li>rpc port: 9332</li>
+</ul>
+                <!-- SPECIFICATION SECTION END -->
+                              
+<h4>InstantSend</h4>
+<p>Allows for near-instant transactions. <b>iBTC</b> InstantSend transactions are fully confirmed.</p>
+<h2>GUI</h2>
+<ul>
+<figure>
+<a ></a><img src="images/ibtc.PNG" alt="ibtc-Qt on macOS" style="width: 100%;"></a>
+<figcaption>ibtc-Qt v0.19.1 on Ubuntu 19</figcaption>
+</figure><br>
+<figure>
+<a ></a><img src="images/default.PNG" alt="ibtc Electrum on macOS" style="width: 100%;"></a>
+<figcaption>iBTC Electrum v3.3.8.2 on Ubuntu 19</figcaption>
+</figure>
+</ul>
+<hr class="hr-line">
+<ul class="icons">
+<!-- <li><a href="https://twitter.com/IBTC" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
+<!-- <li><a href="https://www.facebook.com/IBTC" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
+<!-- <li><a href="https://www.linkedin.com/company/IBTC/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li> -->
+<li><a href="https://github.com/NullFunctor/iBTC.git" class="icon fa-github"><span class="label">GitHub</span></a></li>
+
+</ul>
+<h4>Support the development</h4>
+<ul>
+iBTC <code>19e8sPPFxAL23hUF3yAHgp6NfqgUp9E7oF</code><br>
+BTC <code>19e8sPPFxAL23hUF3yAHgp6NfqgUp9E7oF</code><br>
+LTC <code>ltc1qgyasr5lm3kz5aq7u6tqsyy5f7uqrd29yepevpl</code><br>
+</ul>
+
+<!-- about section -->
+
+<!-- core section starts-->
+
+</article>
+<article id="core">
+<h2 class="major">core</h2>
+<span class="image main"><img src="images/core.PNG" alt=""></span>
+<section><ul class="actions">
+<li><a href="https://github.com/NullFunctor/iBTC/releases" class="button icon fa-download">binaries</a></li>
+</ul>
+</section>
+<h2>iBTC source</h2>
+<p>Use <a href="https://github.com/NullFunctor/iBTC/blob/master/doc/developer-notes.md">iBTC aims </a> to be a more decentralized version of Bitcoin. <a href="https://www.vagrantup.com/">Vagrant</a> and <a href="https://www.virtualbox.org/">VirtualBox</a> with <a href="https://www.ansible.com/">Ansible</a>. 
+     This section covers build process on macOS (<a href="https://github.com/bitcoin-core/docs/blob/master/gitian-building.md">linux</a> instructions). Gitian provides a way to be reasonably certain that the iBTC executables are really built from the exact source on GitHub and have not been tampered with. It also makes sure that the same, tested dependencies are used and statically built into the executable.
+Multiple developers build from source code by following a specific descriptor ("recipe"), cryptographically sign the result, and upload the resulting signature. These results are compared and only if they match is the build is accepted.</p>
+<h4>GnuPG</h4>
+<p>Download and install the latest version of GPG Suite from <a href="https://gpgtools.org">here</a>.</p>
+<h4>Vagrant</h4>
+<p>Download and install the latest version of Vagrant from <a href="https://www.vagrantup.com/downloads.html">here</a>.</p>
+<h4>VirtualBoX</h4>
+<p>Download and install the latest version of VirtualBox from <a href="https://www.virtualbox.org/wiki/Downloads">here</a>.</p>
+<h4>Ansible</h4>
+Install prerequisites
+<pre><code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew doctor
+brew install git
+sudo easy_install pip
+</code></pre>
+Setup Ansible
+<pre><code>sudo pip install ansible</code></pre>
+<h3>IBTC-gitian</h3>
+<pre><code>git clone https://github.com/NullFunctor/iBTC.git
+cd IBTC-gitian
+</code></pre>
+Edit your <code>gitian.yml</code> file:
+<pre><code>
+# URL of repository containing iBTC source code.
+ibtc_git_repo_url: 'https://github.com/NullFunctor/iBTC'
+
+# Specific tag or branch you want to build.
+IBTC_version: 'master'
+
+# The <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a6c8c7cbc3e6">[email&#160;protected]</a> in the e-mail address of your GPG key, alternatively a key ID.
+gpg_key_name: 'F16219F4C23F91112E9C734A8DFCBF8E5A4D8019'
+
+# OPTIONAL set to import your SSH key into the VM. Example: id_rsa, id_ed25519. Assumed to reside in ~/.ssh
+ssh_key_name: ''
+</code></pre>
+<p>Place <a href="https://github.com/bitcoin-core/docs/blob/master/gitian-building.md">Apple SDK</a> tarball (<code>MacOSX10.11.sdk.tar.gz</code>) into <code>ibtc-gitian</code> folder for macOS builds.</p>
+<p>Start the build with <code>vagrant up --provision IBTC-build</code>.</p>
+<p>Then connect to the box with <code>vagrant ssh IBTC-build</code>.</p>
+Prepare the container and start building with:
+<pre><code>#replace $SIGNER and $VERSION to match your gitian.yml
+
+</code></pre>
+<p>Commit assertions from the box using <code>git</code> (<a href="https://github.com/settings/tokens">access token</a> might be needed) or use <code>vagrant scp</code> <a href="https://github.com/NullFunctor/iBTC">plugin</a> to transfer data.</p>
+<p><i>guide for <a href="https://github.com/NullFunctor/iBTC/blob/master/doc/developer-notes.md">developer</a></i></p>
+
+<!-- core section end -->
+
+<!-- electrum section start -->
+
+</article>
+<article id="electrum">
+<h2 class="major">electrum</h2>
+<span class="image main"><img src="images/cntrls.jpg" alt=""></span>
+<section><ul class="actions">
+ <li><a href="https://github.com/NullFunctor/electrum/releases/latest" class="button icon fa-download">binaries</a></li>
+</ul>
+</section>
+<p>iBTC Electrum is a lightweight client for iBTC network. Check with iBTC <a href="https://github.com/bitcoin-core/bitcoin-devwik">wiki</a> for more details. The source code is available at <a href="https://github.com/NullFunctor/iBTC" class="user-mention">@iBTC</a>' GitHub <a href="https://github.com/NullFunctor/electrum#getting-started">repository</a>.<br>
+<br>
+<figure>
+<a><img src="images/ibtc.PNG" alt="iBTC on macOS" style="width: 95%;"></a>
+<figcaption>iBTC Electrum on Ubuntu 19</figcaption>
+</figure>
+</p>
+<h3>Usage</h3>
+<p>Download binaries or follow this <a href="https://github.com/NullFunctor/electrum#getting-started">guide</a> to install iBTC Electrum from source on your system.</p>
+<h2 class="major">electrumx</h2>
+ElectrumX is a server-side application for iBTC <a href="https://github.com/bitcoin-core/bitcoin-devwik">SPV</a> protocol. The current version requires precise system configuration and is not fully automated for fast deployment. The script below is used for fast and easy setup of electrumx server on working iBTC core node.
+To start, input following line:
+<pre><code>wget https://raw.githubusercontent.com/bauerj/electrumx-installer/master/bootstrap.sh -O - | bash</code></pre>
+Finish the configuration by adding your iBTC node's RPC login/pass in DAEMON_URL as <code>user:<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="aadacbd9d9ea">[email&#160;protected]</a><vps ip>:<rpcport>/</rpcport></vps></code>
+Sample:
+<pre><code># REQUIRED
+DB_DIRECTORY = /db
+# iBTC node RPC credentials
+DAEMON_URL = ibtc:<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d0bde3b8bbe8e6bde8a6a790e1e4e4fee2e0e2fee4e0fee3e3">[email&#160;protected]</a>:9337/
+DB_ENGINE=rocksdb
+SSL_CERTFILE=/etc/electrumx/server.crt
+SSL_KEYFILE=/etc/electrumx/server.key
+TCP_PORT=50001
+SSL_PORT=50002
+# Listen on all interfaces:
+HOST=91.65.291.42
+COIN=iBTC
+
+#BANNER_FILE = /etc/electrumx/electrum.banner
+#Uncomment the above line if you want to have a banner and create the banner file</code></pre>
+Add the ports in the firewall exception:
+<pre><code>sudo ufw allow 50001
+sudo ufw allow 50002</code></pre>
+<h3>Launch</h3>
+Starting and stopping electrumx server<br>
+<code>service electrumx start</code><br>
+<code>service electrumx start</code><br>
+
+              <!-- electrum section end -->
+
+     <!-- mining section start   -->       
+
+</article>
+<article id="mining">
+<h2 class="major">mining</h2>
+<span class="image main"><img src="images/minerdedication.jpg" alt=""></span>
+<section><h3>Create iBTC address to receive payments</h3>
+<p>Download the <a href="https://github.com/NullFunctor/iBTC/releases"><b>iBTC core</b></a>, <a href="https://github.com/NullFunctor/iBTC/releases"><b>iBTC Electrum</b></a> or mobile client. Generate a new address to receive payments from the mining operation.</p></section>
+<section><h3 class="major">SHA256</h3>
+Connect to your SHA256 miner and enter values according to the following sample:<br>
+<br>
+<pre><code>Url: POOLADDRESS:PORT
+Worker: WALLETADDRESS
+Password: X</code></pre></section>
+<p>
+Use <a href="#">p2pool-scanner</a> to find the best pool for your operations.
+</p>
+<h3 class="major">p2pool</h3>
+Requirements:
+<li>node &gt;= v0.10+</li>
+<br>
+<h4>Requirements node v0.10+</h4>
+# Using <code>Ubuntu</code>:
+<pre><code>sudo apt remove nodejs <br> curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+     sudo apt-get install -y nodejs</code></pre>
+Download and prepare deployment script:
+<pre><code>cd ~
+git clone https://github.com/NullFunctor/node-stratum-pool.git node_modules/stratum-pool
+cd node_modules/stratum-pool
+sudo npm update npm -g
+sudo apt install g++ make
+npm install bignum
+npm update
+</code></pre>
+Edit the script to match your setup:
+<li>
+<code>PUBLIC_IP</code> your public IP address</li>
+<li>
+<code>EMAIL</code> your email address</li>
+<li>
+<code>PAYOUT_ADDRESS</code> your IBTC wallet address to receive fees</li>
+<li>
+<code>USER_NAME</code> linux user name</li>
+<li>
+<code>RPCUSER</code> enter a random alphanumeric rpc user name</li>
+<li>
+<code>RPCPASSWORD</code> enter a random alphanumeric rpc password</li>
+<br>
+
+<hr class="hr-line">
+
+<a href="https://github.com/NullFunctor/node-stratum-pool"><b>source</b></a> <br>
+<a href="https://github.com/NullFunctor/node-stratum-pool"><b>deployment script</b></a><br>
+</article>
+
+
+         
+         <!--resources section start-->
+ <article id="resources">
+<h2 class="major">resources</h2>
+<h3>Official</h3>
+<ul>
+<li><a href="https://github.com/NullFunctor">repositories</a></li>
+<li>
+<a href="https://github.com/NullFunctor/iBTC/releases">user documentation 🚧</a>
+</li>
+<li><a href="https://hub.docker.com/u/ibtc">docker</a></li>
+<li><a href="https://www.npmjs.com/org/ibtc">npm</a></li>
+<li><a href="https://www.bountysource.com/teams/ibtc">bountysource</a></li>
+<!-- <li><a href="https://coinmarketcap.com/currencies/ibtc">coinmarketcap</a></li> -->
+<li><a href="https://discord.gg/Nwj56J7">discord</a></li>
+<li><a href="https://www.reddit.com/r/ibtc">reddit</a></li>
+<li><a href="https://bitcointalk.org/index.php?topic=5233744">bitcointalk</a></li>
+</ul>
+<h3>Wallets</h3>
+<ul>
+<li><a href="https://github.com/NullFunctor/iBTC/releases/tag/v0.19.1.1_final">windows</a></li>
+<li><a href="https://github.com/NullFunctor/electrum">electrum</a></li>
+</ul>
+<h3>Tools &amp; Services</h3>
+<ul>
+<li><a href="https://github.com/NullFunctor/iBTC">ibtc</a></li>
+<li><a href=" https://explorer.ibtc.network">explorer </a></li>
+<li><a href="https://github.com/NullFunctor/node-stratum-pool">p2pool-iBTC</a></li>
+<li><a href="#">paper wallet</a></li>
+<li><a href="https://github.com/NullFunctor/electrumx">electrumx</a></li>
+<li><a href="https://github.com/NullFunctor/iBTC_paper_wallet">paper wallet</a></li> 
+<li><a href="https://github.com/NullFunctor/iBTC/blob/develop/src/pow.cpp9">daa</a></li>
+</ul>
+<h3>Misc</h3>
+<ul>
+<li><a href="https://github.com/bitcoinbook/bitcoinbook">mastering bitcoin</a></li>
+</ul>
+</article>
+</div>
+
+<footer id="footer">
+</footer>
+</div>
+
+<div id="bg"></div>
+
+<!-- <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous" type="text/javascript"></script> 
+<script src="assets/js/browser.min.js" type="text/javascript"></script>
+<script src="assets/js/breakpoints.min.js" type="text/javascript"></script>
+<script src="assets/js/util.js" type="text/javascript"></script>
+<script src="assets/js/main.js" type="text/javascript"></script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="96cc68ebc1af0b4016661b52-|49" defer=""></script></body>
+</html>
